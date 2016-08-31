@@ -9,8 +9,7 @@ import {Component, Input, AfterViewInit, ElementRef, ChangeDetectorRef} from "@a
      [class.in]="isIn"
      [class.fade]="isFade"
      role="tooltip">
-    <div class="tooltip-arrow"></div> 
-    <div class="tooltip-inner">
+    <div class="tooltip-inner" style="background-color: white; color: black; border-radius: 0px; border: 1px solid black; box-shadow: 0 2px 2px 0px; padding: 10px; ">
         <ng-content></ng-content>
         {{ content }}
     </div> 
